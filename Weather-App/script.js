@@ -2,7 +2,7 @@
 {
     const city = document.getElementById('input').value;
     const weatherIcon = document.querySelector('.weather-Icon');
-    const apiKey= '1f5cb115f79976cfcb1b8e8c576a2fa8';
+    const apiKey= 'f295e1a78b08ad64656f5f16e6eb2a76';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
     try{
         const response = await fetch(url);
@@ -54,4 +54,5 @@
     }
 
 }
+
 
