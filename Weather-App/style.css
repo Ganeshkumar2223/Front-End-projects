@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: "Poppins", sans-serif;
+        box-sizing: border-box;
+    }   
+    html, body {
+        margin: 0;            
+        padding: 0;         
+        height: 100%;         
+        overflow: hidden;     
+    }
+    body{
+        /* background: linear-gradient(135deg, #87CEFA, #f0f8ff); */
+        background: #222;
+        height: 100%;
+        width: 100%;
+    }
+    .card{
+        width:100%;
+        max-width: 410px;
+        margin: auto;
+        margin-top: 100px;
+        /* background:#6D9DC5; */
+        background: linear-gradient(135deg, #00feba, #5b548a);
+        font-size:18px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        /* color:#fff; */
+        color: #fff;
+        border-radius: 10px;
+        font-weight: 200;
+        padding : 40px;
+        text-align:center;
+        box-sizing: border-box;
+    }
+    .container input{
+        border:0px;
+        outline: 0px;
+        border-radius: 20px 20px;
+        color:#000;
+        height:40px;
+        padding: 10px 25px;
+        margin-left:20px;
+        width: 220px;
+        
+    }
+    .container button{
+        border:0px;
+        outline: 0px;
+        border-radius: 50%;
+        height:40px;
+        width:40px;
+        margin-left:20px;
+        cursor: pointer;
+
+    }
+    .container button img{
+        width: 15px;
+        height:15px;
+        border-radius: 10px;
+        
+    }
+    .weather-Icon
+    {
+        width:100px;
+        margin-top: 18px;
+    }
+    .temp{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .city{
+        font-size:40px;
+        font-weight:400;
+    }
+    .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 27px;
+    }
+    .col{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        
+
+    }
+    .col img{
+        width:50px;
+        margin-right:8px
+    }
+    .font-style
+    {
+        font-weight: 500;
+    }
+    .weather{
+        display: none;
+    }
+    .error{
+        
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent">
+    <div class="card">
+        <div class="container">
+            <input type="text" placeholder="Enter the city" spellcheck="false" id="input"/>
+            <button onclick="myWeather()"><img src="images/search.png"></button>
+        </div>
+        <div class ="error">
+
+        </div>
+        <div class="weather">
+            <img src="images/snow.png" alt="weather-icon" class="weather-Icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Chennai</h2>
+       
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.png">
+                <div>
+                    <p class="font-style">Humididty</p>
+                    <p class="humidity">50 %</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/wind.png">
+                <div class="subCol"> 
+                    <p class="font-style">wind Speed</p>
+                    <p class="wind">15 km/h</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
